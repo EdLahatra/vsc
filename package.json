@@ -12,6 +12,8 @@
     "nodemon": "^2.0.3"
   },
   "scripts": {
+    "start": "node src/app.js",
+    "build": "node -v",
     "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
